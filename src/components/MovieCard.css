@@ -1,0 +1,119 @@
+.movie-card {
+  width: 100%;
+  max-width: 420px;
+  margin: 20px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #0f0f23;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+}
+
+.poster-container {
+  position: relative;
+}
+
+.main-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.no-poster {
+  height: 300px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.rating-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  background: #ffcc00;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: 0 0 15px rgba(255,204,0,0.6);
+}
+
+.movie-info {
+  padding: 20px;
+}
+
+.genres {
+  margin: 12px 0;
+}
+
+.genre-tag {
+  background: #1a3c5e;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.gallery-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.gallery-scroll img {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #bbb;
+  margin: 15px 0;
+  padding-left: 12px;
+  border-left: 4px solid #ffcc00;
+}
+
+.save-btn {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.movie-form {
+  background: #1a1a2e;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.movie-form input, .movie-form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: white;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
